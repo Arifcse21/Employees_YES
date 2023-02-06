@@ -1,0 +1,8 @@
+.idea/
+.env
+.loadenv
+__pycache__/
+migrations/
+*.pyc
+.pyc
+
