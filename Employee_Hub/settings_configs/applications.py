@@ -13,7 +13,6 @@ PRE_INSTALLED_APPS = [
 PROJECT_APPS = [
     'rest_framework',
     'employee',
-    'permissions',
     'roles'
 ]
 
