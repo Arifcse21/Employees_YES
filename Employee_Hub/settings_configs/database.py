@@ -12,5 +12,8 @@ DATABASES = {
         'PASSWORD': os.environ.get("DB_PASSWD"),
         'PORT': 5432,
         'OPTIONS': {'sslmode': 'require'},
+        'TEST': {
+            'NAME': os.environ.get("DB_NAME")
+        }
     }
 }
